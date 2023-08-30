@@ -208,6 +208,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`vendedor` (
   `id` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
+ALTER TABLE `mydb`.`vendedor` ADD COLUMN `nome` VARCHAR(120) NOT NULL;
 
 
 -- -----------------------------------------------------

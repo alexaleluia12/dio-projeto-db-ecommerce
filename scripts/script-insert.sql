@@ -75,3 +75,61 @@ INSERT INTO  `mydb`.`produto_fornecido` (
     (13, '51196029000121'),
     (14, '51196029000121'),
     (15, '51196029000121');
+
+INSERT INTO `mydb`.`estoque` VALUES (1);
+INSERT INTO `mydb`.`estoque` VALUES (2);
+
+INSERT INTO `mydb`.`produto_estoque` VALUES
+    (1, 1, 50),
+    (1, 2, 24),
+    (1, 3, 25),
+    (1, 4, 20),
+    (1, 5, 0),
+    (1, 6, 1),
+    (1, 7, 3),
+    (1, 8, 1),
+    (1, 9, 2),
+    (1, 10, 7),
+    (2, 11, 2),
+    (1, 12, 1),
+    (2, 13, 258),
+    (2, 14, 89),
+    (2, 15, 320);
+
+INSERT INTO `mydb`.`vendedor` (`nome`) VALUES
+    ('Pedro da Silva Fake'),
+    ('Janaina Pereira Fake'),
+    ('Carlos Antonio Trump Fake');
+
+INSERT INTO `mydb`.`produto_vendido_por` VALUES
+    (1, 1),
+    (1, 2),
+    (1, 3),
+    (2, 1),
+    (2, 3),
+    (2, 4),
+    (2, 5),
+    (2, 6),
+    (2, 7),
+    (2, 8),
+    (2, 9),
+    (2, 10),
+    (2, 11),
+    (3, 12),
+    (3, 13),
+    (3, 14),
+    (3, 15);
+
+INSERT INTO `mydb`.`pedido` VALUES
+    (1, 1, 10),
+    (2, 1, 10),
+    (3, 2, 10),
+    (4, 3, 10),
+    (5, 4, 11);
+
+INSERT INTO `mydb`.`item_pedido` VALUES
+    (1, 1, 9),
+    (2, 1, 2),
+    (1, 2, 5),
+    (15, 3, 1),
+    (14, 4, 1);
