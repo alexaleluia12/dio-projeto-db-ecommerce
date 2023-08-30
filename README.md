@@ -1,3 +1,4 @@
+```txt
 # dio-projeto-db-ecommerce
 Projeto para curso de Banco de Dados da DIO
 
@@ -20,3 +21,4 @@ Quantos pedidos foram feitos por cada cliente?
 Algum vendedor também é fornecedor?
 Relação de produtos fornecedores e estoques;
 Relação de nomes dos fornecedores e nomes dos produtos;
+```

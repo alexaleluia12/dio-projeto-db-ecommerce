@@ -133,3 +133,21 @@ INSERT INTO `mydb`.`item_pedido` VALUES
     (1, 2, 5),
     (15, 3, 1),
     (14, 4, 1);
+
+INSERT INTO `mydb`.`pagamento` (`cliente_id`, `status`, `data_atualizacao`) VALUES
+    (1, 'done', '2023-06-05'),
+    (1, 'done', '2023-07-05'),
+    (2, 'refound', '2023-03-01'),
+    (3, 'done', '2023-08-20'),
+    (4, 'done', '2023-08-21');
+
+INSERT INTO `mydb`.`entrega` (`pedido_id`, `status`, `cod_rastreio`) VALUES
+    (1, 'entrege', '8js3s8xks83jx2l1'),
+    (2, 'entrege', 'f38d28dj28swsju3j'),
+    (3, 'devolucao', '8j4j1ls19dk3u3h3cje'),
+    (4, 'entrege', '83du27164hhy3shyqshd9032u'),
+    (5, 'enviado', 'T53i2j22ujHH51');
+
+INSERT INTO `mydb`.`fornecedor_pedido`  VALUES
+    ('51196029000121', 3),
+    ('55756357000196', 5);
